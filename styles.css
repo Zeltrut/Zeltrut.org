@@ -1,107 +1,50 @@
-/* General Reset */
-* {
+/* Basic styles for the layout */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-    color: #0f1b61;
     background-color: #f4f9fc;
-    line-height: 1.6;
 }
 
-/* Navbar */
 .navbar {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    background-color: #fff;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-    padding: 10px 0;
-    z-index: 10;
-}
-
-.navbar ul {
     display: flex;
-    justify-content: center;
-    list-style-type: none;
-}
-
-.navbar ul li {
-    margin: 0 20px;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    color: #0f1b61;
-    font-weight: bold;
-}
-
-/* Hero Section */
-.hero {
-    height: 100vh;
-    background-image: url('path/to/your-image.jpg');
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
     color: white;
 }
 
-.hero-text h1 {
-    font-size: 4rem;
-    margin-bottom: 20px;
+.nav-links {
+    list-style: none;
+    display: flex;
 }
 
-.hero-text p {
-    font-size: 1.5rem;
+.nav-links li {
+    margin-right: 20px;
 }
 
-/* Sections */
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
 .section {
-    padding: 60px 20px;
+    padding: 60px;
     text-align: center;
 }
 
-#about, #projects, #contact {
-    padding-top: 80px;
-}
-
-.project-list {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.project {
-    background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin: 10px;
-    flex: 1;
-    max-width: 300px;
-}
-
-/* Loading Screen */
+/* Loading screen */
 .loading {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #f4f9fc;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1000;
-    transition: opacity 0.5s ease;
-}
-
-.is-loaded {
-    display: none;
 }
 
 .spinner {
@@ -116,9 +59,4 @@ body {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
-}
-
-/* Smooth Scrolling */
-html {
-    scroll-behavior: smooth;
 }
