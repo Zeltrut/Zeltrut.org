@@ -3,62 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Justin Lam - Cybersecurity Pentester Portfolio">
-    <title>Justin Lam - Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Justin Lam Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <!-- Navigation -->
-    <nav>
+    <!-- Loading Screen -->
+    <div class="loading" id="loading-screen">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#work">Work</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
-    <!-- Hero Section -->
-    <header id="home" class="hero">
+    <!-- Header Section -->
+    <header class="hero">
         <div class="hero-text">
             <h1>Justin Lam</h1>
-            <p>Cybersecurity Pentester | Ethical Hacker</p>
-            <a href="#work" class="btn">View Projects</a>
+            <p>Future Cybersecurity Pentester & Ethical Hacker</p>
         </div>
     </header>
 
     <!-- About Section -->
-    <section id="about" class="about">
+    <section id="about" class="section">
         <h2>About Me</h2>
-        <p>Nice to meet you, I am Justin Lam, I hope to become a cybersecurity pentester and ethical hacker, specializing in identifying security vulnerabilities and safeguarding systems. I am passionate about technology and security, and would like to work to ensure the integrity of digital platforms.</p>
+        <p>
+            Nice to meet you, I am Justin Lam. I hope to become a cybersecurity pentester and ethical hacker, specializing in identifying security vulnerabilities and safeguarding systems. 
+            I am passionate about technology and security, and I work to ensure the integrity of digital platforms.
+        </p>
     </section>
 
-    <!-- Work Section -->
-    <section id="work" class="work">
-        <h2>My Work</h2>
-        <div class="project-grid">
-            <!-- Project 1: Encryption-Decryption Application -->
-            <div class="project-card">
-                <h3>Encryption-Decryption Application</h3>
-                <p>This application is designed to encrypt and decrypt data securely, using a custom encryption algorithm implemented in Python. It provides secure communication by transforming plaintext into ciphertext.</p>
-                <a href="https://github.com/Zeltrut/Encryption-Decryption-Application" target="_blank" class="btn">View on GitHub</a>
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Description of Project 1</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Description of Project 2</p>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact">
+    <section id="contact" class="section">
         <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:justinlam@example.com">justinlam@example.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/justinlam" target="_blank">linkedin.com/in/justinlam</a></p>
+        <p>Email: justinlam0624@gmail.com</p>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 Justin Lam. All rights reserved.</p>
-    </footer>
-
+    <script src="scripts.js"></script>
 </body>
 </html>
