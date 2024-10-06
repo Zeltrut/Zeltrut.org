@@ -3,28 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Justin Lam's Personal Portfolio">
+    <meta name="description" content="Justin Lam - Cybersecurity Pentester Portfolio">
     <title>Justin Lam - Portfolio</title>
-    <!-- Link to the external CSS file -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- Content of the HTML goes here -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="hero">
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-text">
             <h1>Justin Lam</h1>
-            <p>Cyber Security PenTester | Problem Solver | Innovator</p>
+            <p>Cybersecurity Pentester | Ethical Hacker</p>
+            <a href="#work" class="btn">View Projects</a>
         </div>
     </header>
 
-    <!-- Other sections -->
-    <!-- (Rest of the HTML code continues here) -->
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I'm Justin Lam, a cybersecurity pentester and ethical hacker, specializing in identifying security vulnerabilities and safeguarding systems. Passionate about technology and security, I work to ensure the integrity of digital platforms.</p>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="work">
+        <h2>My Work</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Cybersecurity vulnerability assessment.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Penetration testing of an enterprise system.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Security hardening for cloud infrastructure.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:justinlam@example.com">justinlam@example.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/justinlam" target="_blank">linkedin.com/in/justinlam</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Justin Lam. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
