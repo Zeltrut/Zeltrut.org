@@ -97,6 +97,11 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 1000;
+    transition: opacity 0.5s ease;
+}
+
+.is-loaded {
+    display: none;
 }
 
 .spinner {
