@@ -1,5 +1,5 @@
 # zeltrut.org
-A place to showcase my achievements and my portfolio of everything so far
+A place to showcase my achievements and my portfolio of everything I have accomplished so far
 
 www.zeltrut.org
 or
