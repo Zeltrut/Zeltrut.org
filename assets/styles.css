@@ -42,7 +42,7 @@ body {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background-image: url('path/to/your-image.jpg');
+    background-image: url('assets/images/me_happy_glasses.png');
     background-size: cover;
     display: flex;
     justify-content: center;
